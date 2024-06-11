@@ -1,0 +1,31 @@
+.container{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8.6em 0 8.6em;
+    
+    .high-light{
+        color:#FF204E
+    }
+    .navigation-container{
+        ul{
+            display: flex;
+            flex-direction: row;
+
+           li{
+            display: flex;
+            text-decoration: none;
+            justify-content: space-between;
+            padding-left: 2rem;
+            font-weight: 500;
+            
+        }
+        li:hover{
+            cursor: pointer;
+            color: #FF204E;
+        }
+        }
+    }
+}
