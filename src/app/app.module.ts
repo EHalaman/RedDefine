@@ -7,6 +7,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServicingComponent } from './components/servicing/servicing.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ServicingComponent } from './components/servicing/servicing.component';
     DashboardComponent,
     NavigationComponent,
     FooterComponent,
-    ServicingComponent
+    ServicingComponent,
+    AboutusComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,

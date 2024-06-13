@@ -1,0 +1,79 @@
+#contact-us{
+    .container{
+        display: flex;
+        flex-direction: row;
+        padding: 1em 8.6em 1em 8.6em;
+        gap: 30px;
+        .left-img{
+            img{
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+        }
+        .right-context{
+            .get-in-touch{
+                font-family: 'Lato', sans-serif;
+                font-size: 22px;
+                text-align: justify;
+                .title{
+                    letter-spacing: 10px;
+                    font-size: 3rem;
+                    line-height: 30px;
+                    font-weight: 600;
+                    .high-light{
+                        color: #FF204E;
+                    }
+                }
+            }
+        }
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        line-height: 45px;
+        .high-light{
+            color: #FF204E;
+        }
+        label{
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: -5px;
+            letter-spacing: 1.8px;
+        }
+        input, textarea{
+            font-size: 22px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contained{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .btn-submit{
+            border: 1px solid #000;
+            width: 250px;
+            display: flex;
+            justify-content: center;
+            margin: 30px 30px 30px 0;
+            border-radius: 5px;
+            font-size: 22px;
+            font-weight: 600;
+            color: #FF204E;
+            line-height: 28px;
+        }
+    }
+
+    
+}
+
+#cnct-info{
+    padding: 1em 8.6em 1em 8.6em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+    line-height: 35px;
+    .high-light{
+        color: #FF204E;
+    }
+}
